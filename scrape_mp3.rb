@@ -30,6 +30,7 @@ directories.each do |f|
     mp3= "http://media.daytrotter.com/audio/96/#{t[3]}.mp3"
     puts "MP3: #{mp3}"
     filename = "#{t[1]}--#{t[2]}".gsub!(/\s|\//, '_')
+    filename = "#{t[1]}--#{t[2]}" if filename == nil
     if filename != nil
       mp3_file = "#{album_dir}/#{filename}.mp3"
       puts "File: #{mp3_file}"
