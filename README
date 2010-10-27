@@ -1,5 +1,9 @@
-From http://www.daytrotter.com/sc/terms-of-use.html
+In order to run the scripts
+a.) wget http://www.daytrotter.com/al/artists/alphabetical.html
+b.) ./scrape.rb < alphabetical.html
+c.) ./scrape_mp3.rb
 
+From http://www.daytrotter.com/sc/terms-of-use.html
 -----------------------------------
 LICENSE AND SITE ACCESS
 
